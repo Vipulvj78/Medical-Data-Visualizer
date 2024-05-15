@@ -15,7 +15,7 @@ df['gluc'].replace({1: 0, 2: 1, 3: 1}, inplace=True)
 
 # 4
 def draw_cat_plot():
-    # 5
+    # 
     df_cat = pd.melt(df, id_vars = ['cardio'], value_vars = ['cholesterol','gluc','smoke','alco','active','overweight'])
 
 
